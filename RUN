@@ -1,0 +1,4 @@
+#!/bin/bash
+module add gcc
+g++ -Wall -std=c++17 -Ofast src/*.cpp -o NN
+./NN
